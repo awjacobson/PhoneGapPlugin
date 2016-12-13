@@ -97,6 +97,12 @@
     </array>
   </config-file>
 
+  <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+    <array>
+      <string>mkto-$APPLICATION_SECRET_KEY</string>
+    </array>
+  </config-file>
+
   <header-file src="src/ios/MarketoPlugin.h"/>
   <source-file src="src/ios/MarketoPlugin.m"/>
 
